@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 overrides:
   jsdom: ^22
   mock-socket: ^9.3.1
@@ -231,8 +227,8 @@ importers:
         specifier: workspace:*
         version: link:../text-encoding-impl
       tinybench:
-        specifier: ^2.6.0
-        version: 2.6.0
+        specifier: ^2.9.0
+        version: 2.9.0
 
   packages/compat:
     dependencies:
@@ -301,8 +297,8 @@ importers:
         version: link:../errors
     devDependencies:
       tinybench:
-        specifier: ^2.6.0
-        version: 2.6.0
+        specifier: ^2.9.0
+        version: 2.9.0
 
   packages/library:
     dependencies:
@@ -822,8 +818,8 @@ importers:
         version: 6.7.1
     devDependencies:
       tinybench:
-        specifier: ^2.6.0
-        version: 2.6.0
+        specifier: ^2.9.0
+        version: 2.9.0
       undici:
         specifier: ^6.7.1
         version: 6.7.1
@@ -3208,7 +3204,7 @@ packages:
     engines: {node: ^16.10.0 || ^18.12.0 || >=20.0.0}
     peerDependencies:
       canvas: ^2.5.0
-      jsdom: ^22
+      jsdom: '*'
     peerDependenciesMeta:
       canvas:
         optional: true
@@ -12389,8 +12385,8 @@ packages:
   /through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
-  /tinybench@2.6.0:
-    resolution: {integrity: sha512-N8hW3PG/3aOoZAN5V/NSAEDz0ZixDSSt5b/a05iqtpgfLWMSVuCo7w0k2vVvEjdrIoeGqZzweX2WlyioNIHchA==}
+  /tinybench@2.9.0:
+    resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
     dev: true
 
   /tmp@0.0.33:
@@ -13425,3 +13421,7 @@ packages:
       which: 3.0.1
       yaml: 2.3.1
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
