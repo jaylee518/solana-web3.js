@@ -111,7 +111,7 @@
     "mocha": "^10.3.0",
     "mockttp": "^3.10.1",
     "mz": "^2.7.0",
-    "node-abort-controller": "^3.0.1",
+    "node-abort-controller": "^3.1.1",
     "prettier": "^3.2",
     "rimraf": "5.0.5",
     "rollup": "^4.13.2",
